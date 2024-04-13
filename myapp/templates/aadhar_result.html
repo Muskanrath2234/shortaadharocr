@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}Aadhar Short Card Information{% endblock %}
+
+{% block content %}
+    <h1>Aadhar Card Information</h1>
+    <ul>
+        <li><strong>Name:</strong> {{ name }}</li>
+        <li><strong>Gender:</strong> {{ gender }}</li>
+        <li><strong>Date of Birth:</strong> {{ dob }}</li>
+        <li><strong>Aadhaar Number:</strong> {{ aadhaar_number }}</li>
+        <li><strong>Address:</strong> {{ address }}</li>
+    </ul>
+{% endblock %}
